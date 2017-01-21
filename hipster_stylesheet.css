@@ -1,3 +1,7 @@
+body{
+	font-family: 'Slabo 27px', serif;
+}
+
 .item {
 	border-style: solid;
 	border-color: white;
@@ -16,7 +20,7 @@
 	border-style: solid;
 	border-color: white;
 	clear: both;
-	font-size: 14pt;
+	font-size: 24pt;
 	font-style: bold;
 }
 
@@ -25,34 +29,40 @@
 	border-color: white;
 	border-radius: 20px;
 	width: 30%;
-	padding-bottom: 30%;
 	float: left;
 	display: block;
 	margin: 10px;
+	height: 100%;
 }
 
 	#red {
 	background-color: red;
+	padding-bottom: 30%;
 	}
 
 	#black {
 	background-color: black;
+	padding-bottom: 30%;
 	}
 	
 	#green {
 	background-color: #709564;
+	padding-bottom: 30%;
 	}
 	
 	#pink {
 	background-color: #ffc9c9;
+	padding-bottom: 30%;
 	}
 	
 	#yellow {
 	background-color: #bf9000;
+	padding-bottom: 30%;
 	}
 	
 	#blue {
 	background-color: #10c4ff;
+	padding-bottom: 30%;
 	}
 
 
@@ -64,10 +74,32 @@
 	overflow: auto;
 }
 
-.option:hover {
+.row_option{
+	border-style: solid;
+	border-color: white;
+	border-radius: 20px;
+	float: left;
+	clear: both;
+	display: block;
+	margin: 10px;
+	width: 95%;
+	padding-left: 10px;
+}
+
+.imgtext{
+	font-size: 18pt;
+}
+
+.option:hover, .row_option:hover  {
 	background-color: yellow !important;
 	border-style: solid;
 	border-color: none;
 	box-shadow: 0px 0px 10px grey;
 	margin: 10px;
+}
+
+img {
+    width: 100%;
+    padding-top: 10px;
+	object-fit: fill;	
 }
