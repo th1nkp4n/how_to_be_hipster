@@ -6,7 +6,7 @@ function total() {
     $('input:checked').each(function(i, obj) {
       score += parseInt($(this).val());
     });
-    console.log(score);
+
     var out;
     if(score >= 0 && score < 9) {
       out = "You're so mainstream. Are you even trying? Why are you here???"
@@ -27,4 +27,7 @@ function total() {
        "You are the king of hipsters, and this coffee shop is your domain.";
     }
     document.getElementById("total").innerHTML = out;
+    $('html, body').animate({
+        scrollTop:$('#total').offset().top},
+        'slow');
 }
