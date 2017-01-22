@@ -2,7 +2,6 @@
 <html>
 
 <head>
-	<title>How Hipster Are You?</title>
 	<link rel="stylesheet" type="text/css" href="hipster_stylesheet.css">
 	<link rel="shortcut icon" href="http://www.picgifs.com/clip-art/cartoons/pokemon/clip-art-pokemon-508076.jpg" />
 	<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
@@ -16,33 +15,28 @@
 			<div class = "color">
 			<p>Pick a color.</p>
 			</div>
+		</div>	
 
 		<div class = "row">
 			<div class = "option" id = "red">
 				<input type="radio" name="color" value="2">
-				<img src="img/red.png" alt="Red">
 			</div>
 			<div class = "option" id = "black">
 				<input type="radio" name="color" value="1">
-				<img src="img/black.png" alt="Black">
 			</div>
 			<div class = "option" id = "green">
 				<input type="radio" name="color" value="4">
-				<img src="img/green.png" alt="Green">
 			</div>
 		</div>
 		<div class = "row">
 			<div class = "option" id = "pink">
 				<input type="radio"  name="color" value="3">
-				<img src="img/pink.png" alt="Pink">
 			</div>
 			<div class = "option" id = "yellow">
 				<input type="radio"  name="color" value="5">
-				<img src="img/yellow.png" alt="Yellow">
 			</div>
 			<div class = "option" id = "blue">
 				<input type="radio"  name="color" value="0">
-				<img src="img/Blue.png" alt="Blue">
 			</div>
 		</div>
 	</div>
@@ -53,7 +47,8 @@
 			<div class = "beanie">
 			<p>Pick your favorite beanie.</p>
 			</div>
-
+		</div>	
+		
 			<div class = "row">
 				<div class = "option">
 					<input type="radio" name="hat" value="1">
@@ -92,26 +87,33 @@
 			</div>
 		</div>
 
-		<div class = "row">
+		<div class = "row" id = "row_words">
 			<div class = "row_option">
+				<input type="radio" name="coffeeIntake" value="0" id="left">
 				<p class = "imgtext">I'm having some right now.</p>
 			</div>
 			<div class = "row_option">
+				<input type="radio" name="coffeeIntake" value="1">
 				<p class = "imgtext">This morning.</p>
 			</div>
 			<div class = "row_option">
+				<input type="radio" name="coffeeIntake" value="2">
 				<p class = "imgtext">Yesterday</p>
 			</div>
 			<div class = "row_option">
+				<input type="radio" name="coffeeIntake" value="3">
 				<p class = "imgtext">This week</p>
 			</div>
 			<div class = "row_option">
+				<input type="radio" name="coffeeIntake" value="4">
 				<p class = "imgtext">This week</p>
 			</div>
 			<div class = "row_option">
+				<input type="radio" name="coffeeIntake" value="5">
 				<p class = "imgtext">This month</p>
 			</div>
 			<div class = "row_option">
+				<input type="radio" name="coffeeIntake" value="6">
 				<p class = "imgtext">What's coffee?</p>
 			</div>
 		</div>
@@ -126,16 +128,20 @@
 
 		<div class = "row">
 			<div class = "option">
-				<div class = "pic">
-					<img src="img/Starbucks.png" alt="Starbucks">
-				</div>
+				<!-- <div class = "pic">
+				<img src="img/Starbucks.png" alt="Starbucks">
+				</div> -->
+				<input type="radio" name="coffeeShop" value="4">
+				<img src="img/Starbucks.png" alt="Starbucks">
 				<p class = "imgtext">Starbucks</p>
 			</div>
 			<div class = "option">
+				<input type="radio" name="coffeeShop" value="3">
 				<img src="img/Dunkin Donuts.jpeg" alt="Dunkin' Donuts">
 				<p class = "imgtext">Dunkin' Donuts</p>
 			</div>
 			<div class = "option">
+				<input type="radio" name="coffeeShop" value="0">
 				<img src="img/Beans and Brews.jpg" alt="Beans and Brews">
 				<p class = "imgtext">Beans and Brews</p>
 			</div>
@@ -143,14 +149,17 @@
 
 		<div class = "row">
 			<div class = "option">
+				<input type="radio" name="coffeeShop" value="2">
 				<img src="img/Tim Hortons.jpeg" alt="Tim Horton's">
 				<p class = "imgtext">Tim Horton's</p>
 			</div>
 			<div class = "option">
+				<input type="radio" name="coffeeShop" value="5">
 				<img src="img/Caribou Coffee.jpeg" alt="Caribou Coffee">
 				<p class = "imgtext">Caribou Coffee</p>
 			</div>
 			<div class = "option">
+				<input type="radio" name="coffeeShop" value="1">
 				<img src="img/Peets Coffee.jpeg" alt="Peet's Coffee">
 				<p class = "imgtext">Peet's Coffee</p>
 			</div>
@@ -166,14 +175,17 @@
 
 		<div class = "row">
 			<div class = "option">
+				<input type="radio" name="city" value="4">
 				<img src="img/Seattle.jpeg" alt="Seattle">
 				<p class = "imgtext">Seattle, Washington</p>
 			</div>
 			<div class = "option">
+				<input type="radio" name="city" value="3">
 				<img src="img/Portland.jpeg" alt="Portland">
 				<p class = "imgtext">Portland, Oregon</p>
 			</div>
 			<div class = "option">
+				<input type="radio" name="city" value="0">
 				<img src="img/Boulder.jpeg" alt="Boulder">
 				<p class = "imgtext">Boulder, Colorado</p>
 			</div>
@@ -181,14 +193,17 @@
 
 		<div class = "row">
 			<div class = "option">
+				<input type="radio" name="city" value="2">
 				<img src="img/Paris.jpeg" alt="Paris">
 				<p class = "imgtext">Paris, France</p>
 			</div>
 			<div class = "option">
+				<input type="radio" name="city" value="1">
 				<img src="img/Los Angeles.jpeg" alt="Los Angeles">
 				<p class = "imgtext">Los Angeles, California</p>
 			</div>
 			<div class = "option">
+				<input type="radio" name="city" value="5">
 				<img src="img/Milan.jpeg" alt="Milan">
 				<p class = "imgtext">Milan, Italy</p>
 			</div>
@@ -201,25 +216,31 @@
 				<p>Pick a catchphrase.</p>
 			</div>
 		</div>
-
-		<div class = "row">
+		
+		<div class = "row" id = "row_words">
 			<div class = "row_option">
+				<input type="radio" name="catch" value="5">
 				<p class = "imgtext">YOLO</p>
 			</div>
 			<div class = "row_option">
+				<input type="radio" name="catch" value="4">	
 				<p class = "imgtext">#NoFilter</p>
 			</div>
 			<div class = "row_option">
+				<input type="radio" name="catch" value="2">
 				<p class = "imgtext">Selfie</p>
 			</div>
 			<div class = "row">
 			<div class = "row_option">
+				<input type="radio" name="catch" value="3">
 				<p class = "imgtext">Mornings are for coffee and contemplation.</p>
 			</div>
 			<div class = "row_option">
+				<input type="radio" name="catch" value="1">
 				<p class = "imgtext">Cash me ousside; Howboh dah</p>
 			</div>
 			<div class = "row_option">
+				<input type="radio" name="catch" value="0">
 				<p class = "imgtext">I was born with glass bones and paper skin. Every morning I break my legs, and every afternoon I break my arms. At night, I lie awake in agony until my heart attacks put me to sleep.</p>
 			</div>
 		</div>
@@ -235,24 +256,30 @@
 
 		<div class = "row">
 			<div class = "option">
+				<input type="radio" name="article" value="5">
 				<img src="img/fedorahat.jpg" alt="Fedora">
 			</div>
 			<div class = "option">
+				<input type="radio" name="article" value="0">
 				<img src="img/pants.jpg" alt="pants">
 			</div>
 			<div class = "option">
+				<input type="radio" name="article" value="3">
 				<img src="img/plaid.jpeg" alt="plaid shirt">
 			</div>
 		</div>
 
 		<div class = "row">
 			<div class = "option">
+				<input type="radio" name="article" value="4">
 				<img src="img/scarf.jpeg" alt="scarf">
 			</div>
 			<div class = "option">
+				<input type="radio" name="article" value="2">
 				<img src="img/shoes.jpeg" alt="trendy shoes">
 			</div>
 			<div class = "option">
+				<input type="radio" name="article" value="1">
 				<img src="img/sweater.jpeg" alt="sweater">
 			</div>
 		</div>
@@ -269,14 +296,17 @@
 
 		<div class = "row">
 			<div class = "option">
+				<input type="radio" name="TV" value="2">
 				<img src="img/Game of Thrones.jpeg" alt="Game of Thrones">
 				<p class = "imgtext">Game of Thrones</p>
 			</div>
 			<div class = "option">
+				<input type="radio" name="TV" value="8">
 				<img src="img/Doctor Who.jpeg" alt="Doctor Who">
 				<p class = "imgtext">Doctor Who</p>
 			</div>
 			<div class = "option">
+				<input type="radio" name="TV" value="7">
 				<img src="img/Yuri on Ice.jpeg" alt="Yuri on Ice">
 				<p class = "imgtext">Yuri on Ice</p>
 			</div>
@@ -284,14 +314,17 @@
 
 		<div class = "row">
 			<div class = "option">
+				<input type="radio" name="TV" value="0">
 				<img src="img/Steven Universe.jpeg" alt="Steven Universe">
 				<p class = "imgtext">Steven Universe</p>
 			</div>
 			<div class = "option">
+				<input type="radio" name="TV" value="1">
 				<img src="img/Portlandia.jpeg" alt="Portlandia">
 				<p class = "imgtext">Portlandia</p>
 			</div>
 			<div class = "option">
+				<input type="radio" name="TV" value="6">
 				<img src="img/Fight Club.jpeg" alt="Fight Club">
 				<p class = "imgtext">Fight Club</p>
 			</div>
@@ -299,22 +332,27 @@
 
 		<div class = "row">
 			<div class = "option">
+				<input type="radio" name="TV" value="4">
 				<img src="img/Bobs Burgers.jpeg" alt="Bob's Burgers">
 				<p class = "imgtext">Bob's Burgers</p>
 			</div>
 			<div class = "option">
+				<input type="radio" name="TV" value="5">
 				<img src="img/The Breakfast Club.jpeg" alt="The Breakfast Club">
 				<p class = "imgtext">The Breakfast Club</p>
 			</div>
 			<div class = "option">
+				<input type="radio" name="TV" value="3">
 				<img src="img/Wallflower.jpeg" alt="The Perks of Being a Wallflower">
 				<p class = "imgtext">The Perks of Being a Wallflower</p>
 			</div>
 		</div>
 	</div>
 </div>
-<button onclick="total()">Submit!</button>
-<p id="total"></p>
+<div class = "item">
+	<button onclick="total()">Submit!</button>
+	<p id="total"></p>
+</div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="answers.js"></script>
