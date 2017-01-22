@@ -54,6 +54,6 @@ $( document ).ready(function() {
 	$( ".row_option" ).click(function() {
 		$( this ).parents( ".item" ).find(".row_option.clicked").removeClass("clicked");
 		$( this ).addClass("clicked");
-	});	
-	
+	});
+
 });
